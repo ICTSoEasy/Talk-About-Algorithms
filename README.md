@@ -4,21 +4,21 @@ This repo is not so much talking about algorithms as implementing them. I just l
 
 This list of algorithsm is shamelessly lifted from [Wikipedia](https://en.wikipedia.org/wiki/List_of_algorithms#Sequence_sorting). Note:: Formatting will happen when I get around to it!
 
-Automated planning
-Further information: List of algorithms for automated planning
-Combinatorial algorithms
-Further information: Combinatorics
-General combinatorial algorithms
-Brent's algorithm: finds a cycle in function value iterations using only two iterators
-Floyd's cycle-finding algorithm: finds a cycle in function value iterations
-Gale–Shapley algorithm: solves the stable marriage problem
-Pseudorandom number generators (uniformly distributed - see also List of pseudorandom number generators for other PRNGs with varying degrees of convergence and varying statistical quality):
-ACORN generator
-Blum Blum Shub
-Lagged Fibonacci generator
-Linear congruential generator
-Mersenne Twister
-Graph algorithms
+## Automated planning
+- Further information: List of algorithms for automated planning
+## Combinatorial algorithms
+- Further information: Combinatorics
+### General combinatorial algorithms
+- Brent's algorithm: finds a cycle in function value iterations using only two iterators
+- Floyd's cycle-finding algorithm: finds a cycle in function value iterations
+- Gale–Shapley algorithm: solves the stable marriage problem
+- Pseudorandom number generators (uniformly distributed - see also List of pseudorandom number generators for other PRNGs with varying degrees of convergence and varying statistical quality):
+  - ACORN generator
+  - Blum Blum Shub
+  - Lagged Fibonacci generator
+  - Linear congruential generator
+  - Mersenne Twister
+### Graph algorithms
 Further information: Graph theory and Category:Graph algorithms
 Coloring algorithm: Graph coloring algorithm.
 Hopcroft–Karp algorithm: convert a bipartite graph to a maximum cardinality matching
@@ -95,84 +95,80 @@ Path-based strong component algorithm
 Kosaraju's algorithm
 Tarjan's strongly connected components algorithm
 Subgraph isomorphism problem
-Sequence algorithms
+### Sequence algorithms
 Further information: Sequences
-Approximate sequence matching
-Bitap algorithm: fuzzy algorithm that determines if strings are approximately equal.
-Phonetic algorithms
-Daitch–Mokotoff Soundex: a Soundex refinement which allows matching of Slavic and Germanic surnames
-Double Metaphone: an improvement on Metaphone
-Match rating approach: a phonetic algorithm developed by Western Airlines
-Metaphone: an algorithm for indexing words by their sound, when pronounced in English
-NYSIIS: phonetic algorithm, improves on Soundex
-Soundex: a phonetic algorithm for indexing names by sound, as pronounced in English
-String metrics: compute a similarity or dissimilarity (distance) score between two pairs of text strings
-Damerau–Levenshtein distance compute a distance measure between two strings, improves on Levenshtein distance
-Dice's coefficient (also known as the Dice coefficient): a similarity measure related to the Jaccard index
-Hamming distance: sum number of positions which are different
-Jaro–Winkler distance: is a measure of similarity between two strings
-Levenshtein edit distance: compute a metric for the amount of difference between two sequences
-Trigram search: search for text when the exact syntax or spelling of the target object is not precisely known
-Selection algorithms
+#### Approximate sequence matching
+- Bitap algorithm: fuzzy algorithm that determines if strings are approximately equal.
+- Phonetic algorithms
+  - Daitch–Mokotoff Soundex: a Soundex refinement which allows matching of Slavic and Germanic surnames
+  - Double Metaphone: an improvement on Metaphone
+  - Match rating approach: a phonetic algorithm developed by Western Airlines
+  - Metaphone: an algorithm for indexing words by their sound, when pronounced in English
+  - NYSIIS: phonetic algorithm, improves on Soundex
+  - Soundex: a phonetic algorithm for indexing names by sound, as pronounced in English
+- String metrics: compute a similarity or dissimilarity (distance) score between two pairs of text strings
+  - Damerau–Levenshtein distance compute a distance measure between two strings, improves on Levenshtein distance
+  - Dice's coefficient (also known as the Dice coefficient): a similarity measure related to the Jaccard index
+  - Hamming distance: sum number of positions which are different
+  - Jaro–Winkler distance: is a measure of similarity between two strings
+  - Levenshtein edit distance: compute a metric for the amount of difference between two sequences
+- Trigram search: search for text when the exact syntax or spelling of the target object is not precisely known
+#### Selection algorithms
 Main article: Selection algorithm
-Quickselect
-Introselect
-Sequence search
-Linear search: finds an item in an unsorted sequence
-Selection algorithm: finds the kth largest item in a sequence
-Ternary search: a technique for finding the minimum or maximum of a function that is either strictly increasing and then strictly decreasing or vice versa
-## Sorted lists
-
-- [Binary search algorithm: locates an item in a sorted sequence](Searching - Binary Search.ipynb)
-
-Fibonacci search technique: search a sorted sequence using a divide and conquer algorithm that narrows down possible locations with the aid of Fibonacci numbers
-Jump search (or block search): linear search on a smaller subset of the sequence
-Predictive search: binary-like search which factors in magnitude of search term versus the high and low values in the search. Sometimes called dictionary search or interpolated search.
-Uniform binary search: an optimization of the classic binary search algorithm
-Sequence merging
+- Quickselect
+- Introselect
+#### Sequence search
+- [Linear search](./Searching%20-%20Linear%20Search.ipynb): finds an item in an unsorted sequence
+- Selection algorithm: finds the kth largest item in a sequence
+- Ternary search: a technique for finding the minimum or maximum of a function that is either strictly increasing and then strictly decreasing or vice versa
+- Sorted lists
+  - [Binary search algorithm](./Searching%20-%20Binary%20Search.ipynb): locates an item in a sorted sequence
+  - Fibonacci search technique: search a sorted sequence using a divide and conquer algorithm that narrows down possible locations with the aid of Fibonacci numbers
+  - Jump search (or block search): linear search on a smaller subset of the sequence
+  - Predictive search: binary-like search which factors in magnitude of search term versus the high and low values in the search. Sometimes called dictionary search or interpolated search.
+  - Uniform binary search: an optimization of the classic binary search algorithm
+#### Sequence merging
 Main article: Merge algorithm
-Simple merge algorithm
-k-way merge algorithm
-Union (merge, with elements on the output not repeated)
-Sequence permutations
+- Simple merge algorithm
+- k-way merge algorithm
+-  Union (merge, with elements on the output not repeated)
+#### Sequence permutations
 Further information: Permutation
-Fisher–Yates shuffle (also known as the Knuth shuffle): randomly shuffle a finite set
-Schensted algorithm: constructs a pair of Young tableaux from a permutation
-Steinhaus–Johnson–Trotter algorithm (also known as the Johnson–Trotter algorithm): generate permutations by transposing elements
-Heap's permutation generation algorithm: interchange elements to generate next permutation
-Sequence alignment
-Dynamic time warping: measure similarity between two sequences which may vary in time or speed
-Hirschberg's algorithm: finds the least cost sequence alignment between two sequences, as measured by their Levenshtein distance
-Needleman–Wunsch algorithm: find global alignment between two sequences
-Smith–Waterman algorithm: find local sequence alignment
-Sequence sorting
+- Fisher–Yates shuffle (also known as the Knuth shuffle): randomly shuffle a finite set
+- Schensted algorithm: constructs a pair of Young tableaux from a permutation
+- Steinhaus–Johnson–Trotter algorithm (also known as the Johnson–Trotter algorithm): generate permutations by transposing elements
+- Heap's permutation generation algorithm: interchange elements to generate next permutation
+#### Sequence alignment
+- Dynamic time warping: measure similarity between two sequences which may vary in time or speed
+- Hirschberg's algorithm: finds the least cost sequence alignment between two sequences, as measured by their Levenshtein distance
+- Needleman–Wunsch algorithm: find global alignment between two sequences
+- Smith–Waterman algorithm: find local sequence alignment
+#### Sequence sorting
 Main article: Sorting algorithm
-Accuracy dispute
-This article appears to contradict the article Sorting_algorithm#Comparison_of_algorithms. Please see discussion on the linked talk page. (March 2011) (Learn how and when to remove this template message)
-Exchange sorts
-Bubble sort: for each pair of indices, swap the items if out of order
-Cocktail shaker sort or bidirectional bubble sort, a bubble sort traversing the list alternately from front to back and back to front
-Comb sort
-Gnome sort
-Odd–even sort
-Quicksort: divide list into two, with all items on the first list coming before all items on the second list.; then sort the two lists. Often the method of choice
-Humorous or ineffective
-Bogosort
-Stooge sort
-Hybrid
-Flashsort
-Introsort: begin with quicksort and switch to heapsort when the recursion depth exceeds a certain level
-Timsort: adaptative algorithm derived from merge sort and insertion sort. Used in Python 2.3 and up, and Java SE 7.
-Insertion sorts
-Insertion sort: determine where the current item belongs in the list of sorted ones, and insert it there
-Library sort
-Patience sorting
-Shell sort: an attempt to improve insertion sort
-Tree sort (binary tree sort): build binary tree, then traverse it to create sorted list
-Cycle sort: in-place with theoretically optimal number of writes
-Merge sorts
-Merge sort: sort the first and second half of the list separately, then merge the sorted lists
-Strand sort
+- Exchange sorts
+  - [Bubble sort](./Sorting%20-%20Bubble%20Sort.ipynb): for each pair of indices, swap the items if out of order
+  - Cocktail shaker sort or bidirectional bubble sort, a bubble sort traversing the list alternately from front to back and back to front
+  - Comb sort
+  - Gnome sort
+  - Odd–even sort
+  - Quicksort: divide list into two, with all items on the first list coming before all items on the second list.; then sort the two lists. Often the method of choice
+- Humorous or ineffective
+  - Bogosort
+  - Stooge sort
+ - Hybrid
+  - Flashsort
+  - Introsort: begin with quicksort and switch to heapsort when the recursion depth exceeds a certain level
+  - Timsort: adaptative algorithm derived from merge sort and insertion sort. Used in Python 2.3 and up, and Java SE 7.
+- Insertion sorts
+  - Insertion sort: determine where the current item belongs in the list of sorted ones, and insert it there
+  - Library sort
+  - Patience sorting
+  - Shell sort: an attempt to improve insertion sort
+  - Tree sort (binary tree sort): build binary tree, then traverse it to create sorted list
+  - Cycle sort: in-place with theoretically optimal number of writes
+- Merge sorts
+  - [Merge sort](./Sorting%20-%20Merge%20Sort.ipynb): sort the first and second half of the list separately, then merge the sorted lists
+  - Strand sort
 Non-comparison sorts
 Bead sort
 Bucket sort
