@@ -121,8 +121,10 @@ Sequence search
 Linear search: finds an item in an unsorted sequence
 Selection algorithm: finds the kth largest item in a sequence
 Ternary search: a technique for finding the minimum or maximum of a function that is either strictly increasing and then strictly decreasing or vice versa
-Sorted lists
-[Binary search algorithm: locates an item in a sorted sequence](Searching - Binary Search.ipynb)
+## Sorted lists
+
+- [Binary search algorithm: locates an item in a sorted sequence](Searching - Binary Search.ipynb)
+
 Fibonacci search technique: search a sorted sequence using a divide and conquer algorithm that narrows down possible locations with the aid of Fibonacci numbers
 Jump search (or block search): linear search on a smaller subset of the sequence
 Predictive search: binary-like search which factors in magnitude of search term versus the high and low values in the search. Sometimes called dictionary search or interpolated search.
