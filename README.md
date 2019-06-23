@@ -5,9 +5,9 @@ This repo is not so much talking about algorithms as implementing them. I just l
 This list of algorithsm is shamelessly lifted from [Wikipedia](https://en.wikipedia.org/wiki/List_of_algorithms#Sequence_sorting). Note:: Formatting will happen when I get around to it!
 
 ## Automated planning
-- Further information: List of algorithms for automated planning
+Further information: List of algorithms for automated planning
 ## Combinatorial algorithms
-- Further information: Combinatorics
+Further information: Combinatorics
 ### General combinatorial algorithms
 - Brent's algorithm: finds a cycle in function value iterations using only two iterators
 - Floyd's cycle-finding algorithm: finds a cycle in function value iterations
@@ -20,81 +20,81 @@ This list of algorithsm is shamelessly lifted from [Wikipedia](https://en.wikipe
   - Mersenne Twister
 ### Graph algorithms
 Further information: Graph theory and Category:Graph algorithms
-Coloring algorithm: Graph coloring algorithm.
-Hopcroft–Karp algorithm: convert a bipartite graph to a maximum cardinality matching
-Hungarian algorithm: algorithm for finding a perfect matching
-Prüfer coding: conversion between a labeled tree and its Prüfer sequence
-Tarjan's off-line lowest common ancestors algorithm: compute lowest common ancestors for pairs of nodes in a tree
-Topological sort: finds linear order of nodes (e.g. jobs) based on their dependencies.
-Graph drawing
+- Coloring algorithm: Graph coloring algorithm.
+- Hopcroft–Karp algorithm: convert a bipartite graph to a maximum cardinality matching
+- Hungarian algorithm: algorithm for finding a perfect matching
+- Prüfer coding: conversion between a labeled tree and its Prüfer sequence
+- Tarjan's off-line lowest common ancestors algorithm: compute lowest common ancestors for pairs of nodes in a tree
+- Topological sort: finds linear order of nodes (e.g. jobs) based on their dependencies.
+#### Graph drawing
 Further information: Graph drawing
-Force-based algorithms (also known as force-directed algorithms or spring-based algorithm)
-Spectral layout
-Network theory
+- Force-based algorithms (also known as force-directed algorithms or spring-based algorithm)
+- Spectral layout
+#### Network theory
 Further information: Network theory
-Network analysis
-Link analysis
-Girvan–Newman algorithm: detect communities in complex systems
-Web link analysis
-Hyperlink-Induced Topic Search (HITS) (also known as Hubs and authorities)
-PageRank
-TrustRank
-Flow networks
-Dinic's algorithm: is a strongly polynomial algorithm for computing the maximum flow in a flow network.
-Edmonds–Karp algorithm: implementation of Ford–Fulkerson
-Ford–Fulkerson algorithm: computes the maximum flow in a graph
-Karger's algorithm: a Monte Carlo method to compute the minimum cut of a connected graph
-Push–relabel algorithm: computes a maximum flow in a graph
-Routing for graphs
-Edmonds' algorithm (also known as Chu–Liu/Edmonds' algorithm): find maximum or minimum branchings
-Euclidean minimum spanning tree: algorithms for computing the minimum spanning tree of a set of points in the plane
-Euclidean shortest path problem: find the shortest path between two points that does not intersect any obstacle
-Longest path problem: find a simple path of maximum length in a given graph
-Minimum spanning tree
-Borůvka's algorithm
-Kruskal's algorithm
-Prim's algorithm
-Reverse-delete algorithm
-Nonblocking minimal spanning switch say, for a telephone exchange
-Shortest path problem
-Bellman–Ford algorithm: computes shortest paths in a weighted graph (where some of the edge weights may be negative)
-Dijkstra's algorithm: computes shortest paths in a graph with non-negative edge weights
-Floyd–Warshall algorithm: solves the all pairs shortest path problem in a weighted, directed graph
-Johnson's algorithm: All pairs shortest path algorithm in sparse weighted directed graph
-Transitive closure problem: find the transitive closure of a given binary relation
-Traveling salesman problem
-Christofides algorithm
-Nearest neighbour algorithm
-Warnsdorff's rule: A heuristic method for solving the Knight's tour problem.
-Graph search
+- Network analysis
+  - Link analysis
+    - Girvan–Newman algorithm: detect communities in complex systems
+    - Web link analysis
+      - Hyperlink-Induced Topic Search (HITS) (also known as Hubs and authorities)
+      - PageRank
+      - TrustRank
+- Flow networks
+  - Dinic's algorithm: is a strongly polynomial algorithm for computing the maximum flow in a flow network.
+  - Edmonds–Karp algorithm: implementation of Ford–Fulkerson
+  - Ford–Fulkerson algorithm: computes the maximum flow in a graph
+  - Karger's algorithm: a Monte Carlo method to compute the minimum cut of a connected graph
+  - Push–relabel algorithm: computes a maximum flow in a graph
+#### Routing for graphs
+- Edmonds' algorithm (also known as Chu–Liu/Edmonds' algorithm): find maximum or minimum branchings
+- Euclidean minimum spanning tree: algorithms for computing the minimum spanning tree of a set of points in the plane
+- Euclidean shortest path problem: find the shortest path between two points that does not intersect any obstacle
+- Longest path problem: find a simple path of maximum length in a given graph
+- Minimum spanning tree
+  - Borůvka's algorithm
+  - Kruskal's algorithm
+  - Prim's algorithm
+  - Reverse-delete algorithm
+- Nonblocking minimal spanning switch say, for a telephone exchange
+- Shortest path problem
+  - Bellman–Ford algorithm: computes shortest paths in a weighted graph (where some of the edge weights may be negative)
+  - Dijkstra's algorithm: computes shortest paths in a graph with non-negative edge weights
+  - Floyd–Warshall algorithm: solves the all pairs shortest path problem in a weighted, directed graph
+  - Johnson's algorithm: All pairs shortest path algorithm in sparse weighted directed graph
+- Transitive closure problem: find the transitive closure of a given binary relation
+- Traveling salesman problem
+  - Christofides algorithm
+  - Nearest neighbour algorithm
+- Warnsdorff's rule: A heuristic method for solving the Knight's tour problem.
+#### Graph search
 Further information: State space search and Graph search algorithm
-A*: special case of best-first search that uses heuristics to improve speed
-B*: a best-first graph search algorithm that finds the least-cost path from a given initial node to any goal node (out of one or more possible goals)
-Backtracking: abandons partial solutions when they are found not to satisfy a complete solution
-Beam search: is a heuristic search algorithm that is an optimization of best-first search that reduces its memory requirement
-Beam stack search: integrates backtracking with beam search
-Best-first search: traverses a graph in the order of likely importance using a priority queue
-Bidirectional search: find the shortest path from an initial vertex to a goal vertex in a directed graph
-Breadth-first search: traverses a graph level by level
-Brute-force search: An exhaustive and reliable search method, but computationally inefficient in many applications.
-D*: an incremental heuristic search algorithm
-Depth-first search: traverses a graph branch by branch
-Dijkstra's algorithm: A special case of A* for which no heuristic function is used
-General Problem Solver: a seminal theorem-proving algorithm intended to work as a universal problem solver machine.
-Iterative deepening depth-first search (IDDFS): a state space search strategy
-Jump point search: An optimization to A* which may reduce computation time by an order of magnitude using further heuristics.
-Lexicographic breadth-first search (also known as Lex-BFS): a linear time algorithm for ordering the vertices of a graph
-Uniform-cost search: a tree search that finds the lowest-cost route where costs vary
-SSS*: state space search traversing a game tree in a best-first fashion similar to that of the A* search algorithm
-Subgraphs
-Cliques
-Bron–Kerbosch algorithm: a technique for finding maximal cliques in an undirected graph
-MaxCliqueDyn maximum clique algorithm: find a maximum clique in an undirected graph
-Strongly connected components
-Path-based strong component algorithm
-Kosaraju's algorithm
-Tarjan's strongly connected components algorithm
-Subgraph isomorphism problem
+- A*: special case of best-first search that uses heuristics to improve speed
+- B*: a best-first graph search algorithm that finds the least-cost path from a given initial node to any goal node (out of one or more possible goals)
+- Backtracking: abandons partial solutions when they are found not to satisfy a complete solution
+- Beam search: is a heuristic search algorithm that is an optimization of best-first search that reduces its memory requirement
+- Beam stack search: integrates backtracking with beam search
+- Best-first search: traverses a graph in the order of likely importance using a priority queue
+- Bidirectional search: find the shortest path from an initial vertex to a goal vertex in a directed graph
+- Breadth-first search: traverses a graph level by level
+- Brute-force search: An exhaustive and reliable search method, but computationally inefficient in many applications.
+- D*: an incremental heuristic search algorithm
+- Depth-first search: traverses a graph branch by branch
+- Dijkstra's algorithm: A special case of A* for which no heuristic function is used
+- General Problem Solver: a seminal theorem-proving algorithm intended to work as a universal problem solver machine.
+- Iterative deepening depth-first search (IDDFS): a state space search strategy
+- Jump point search: An optimization to A* which may reduce computation time by an order of magnitude using further heuristics.
+- Lexicographic breadth-first search (also known as Lex-BFS): a linear time algorithm for ordering the vertices of a graph
+- Uniform-cost search: a tree search that finds the lowest-cost route where costs vary
+- SSS*: state space search traversing a game tree in a best-first fashion similar to that of the A* search algorithm
+#### Subgraphs
+- Cliques
+  - Bron–Kerbosch algorithm: a technique for finding maximal cliques in an undirected graph
+  - MaxCliqueDyn maximum clique algorithm: find a maximum clique in an undirected graph
+- Strongly connected components
+  - Path-based strong component algorithm
+  - Kosaraju's algorithm
+  - Tarjan's strongly connected components algorithm
+- Subgraph isomorphism problem
 ### Sequence algorithms
 Further information: Sequences
 #### Approximate sequence matching
@@ -169,46 +169,46 @@ Main article: Sorting algorithm
 - Merge sorts
   - [Merge sort](./Sorting%20-%20Merge%20Sort.ipynb): sort the first and second half of the list separately, then merge the sorted lists
   - Strand sort
-Non-comparison sorts
-Bead sort
-Bucket sort
-Burstsort: build a compact, cache efficient burst trie and then traverse it to create sorted output
-Counting sort
-Pigeonhole sort
-Postman sort: variant of Bucket sort which takes advantage of hierarchical structure
-Radix sort: sorts strings letter by letter
-Selection sorts
-Heapsort: convert the list into a heap, keep removing the largest element from the heap and adding it to the end of the list
-Selection sort: pick the smallest of the remaining elements, add it to the end of the sorted list
-Smoothsort
-Other
-Bitonic sorter
-Pancake sorting
-Spaghetti sort
-Topological sort
-Unknown class
-Samplesort
-Subsequences
+- Non-comparison sorts
+  - Bead sort
+  - Bucket sort
+  - Burstsort: build a compact, cache efficient burst trie and then traverse it to create sorted output
+  - Counting sort
+  - Pigeonhole sort
+  - Postman sort: variant of Bucket sort which takes advantage of hierarchical structure
+  - Radix sort: sorts strings letter by letter
+- Selection sorts
+  - Heapsort: convert the list into a heap, keep removing the largest element from the heap and adding it to the end of the list
+  - Selection sort: pick the smallest of the remaining elements, add it to the end of the sorted list
+  - Smoothsort
+- Other
+  - Bitonic sorter
+  - Pancake sorting
+  - Spaghetti sort
+  - Topological sort
+- Unknown class
+  - Samplesort
+#### Subsequences
 Further information: Subsequence
-Kadane's algorithm: finds maximum sub-array of any size
-Longest common subsequence problem: Find the longest subsequence common to all sequences in a set of sequences
-Longest increasing subsequence problem: Find the longest increasing subsequence of a given sequence
-Shortest common supersequence problem: Find the shortest supersequence that contains two or more sequences as subsequences
-Substrings
+- Kadane's algorithm: finds maximum sub-array of any size
+- Longest common subsequence problem: Find the longest subsequence common to all sequences in a set of sequences
+- Longest increasing subsequence problem: Find the longest increasing subsequence of a given sequence
+- Shortest common supersequence problem: Find the shortest supersequence that contains two or more sequences as subsequences
+#### Substrings
 Further information: Substring
-Longest common substring problem: find the longest string (or strings) that is a substring (or are substrings) of two or more strings
-Substring search
-Aho–Corasick string matching algorithm: trie based algorithm for finding all substring matches to any of a finite set of strings
-Boyer–Moore string-search algorithm: amortized linear (sublinear in most times) algorithm for substring search
-Boyer–Moore–Horspool algorithm: Simplification of Boyer–Moore
-Knuth–Morris–Pratt algorithm: substring search which bypasses reexamination of matched characters
-Rabin–Karp string search algorithm: searches multiple patterns efficiently
-Zhu–Takaoka string matching algorithm: a variant of Boyer–Moore
-Ukkonen's algorithm: a linear-time, online algorithm for constructing suffix trees
-Matching wildcards
-Rich Salz' wildmat: a widely used open-source recursive algorithm
-Krauss matching wildcards algorithm: an open-source non-recursive algorithm
-Computational mathematics
+- Longest common substring problem: find the longest string (or strings) that is a substring (or are substrings) of two or more strings
+- Substring search
+  - Aho–Corasick string matching algorithm: trie based algorithm for finding all substring matches to any of a finite set of strings
+  - Boyer–Moore string-search algorithm: amortized linear (sublinear in most times) algorithm for substring search
+  - Boyer–Moore–Horspool algorithm: Simplification of Boyer–Moore
+  - Knuth–Morris–Pratt algorithm: substring search which bypasses reexamination of matched characters
+  - Rabin–Karp string search algorithm: searches multiple patterns efficiently
+  - Zhu–Takaoka string matching algorithm: a variant of Boyer–Moore
+- Ukkonen's algorithm: a linear-time, online algorithm for constructing suffix trees
+- Matching wildcards
+  - Rich Salz' wildmat: a widely used open-source recursive algorithm
+  - Krauss matching wildcards algorithm: an open-source non-recursive algorithm
+## Computational mathematics
 Further information: Computational mathematics
 See also: Combinatorial algorithms and Computational science
 Abstract algebra
