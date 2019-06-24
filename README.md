@@ -160,7 +160,7 @@ Main article: Sorting algorithm
   - Introsort: begin with quicksort and switch to heapsort when the recursion depth exceeds a certain level
   - Timsort: adaptative algorithm derived from merge sort and insertion sort. Used in Python 2.3 and up, and Java SE 7.
 - Insertion sorts
-  - Insertion sort: determine where the current item belongs in the list of sorted ones, and insert it there
+  - [Insertion sort](Sorting%20-%20Insertion%20Sort.ipynb): determine where the current item belongs in the list of sorted ones, and insert it there
   - Library sort
   - Patience sorting
   - Shell sort: an attempt to improve insertion sort
