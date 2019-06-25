@@ -115,7 +115,7 @@ Further information: Sequences
 - Trigram search: search for text when the exact syntax or spelling of the target object is not precisely known
 #### Selection algorithms
 Main article: Selection algorithm
-- Quickselect
+- [Quickselect](./Selection%20-%20Quickselect.ipynb)
 - Introselect
 #### Sequence search
 - [Linear search](./Searching%20-%20Linear%20Search.ipynb): finds an item in an unsorted sequence
